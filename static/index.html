@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Chatbot & Risk Tool</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" data-target="chat">Chatbot</button>
+            <button class="tab" data-target="risk">Risk Calculator</button>
+            <button class="tab" data-target="batch">Batch Upload</button>
+        </div>
+
+        <section id="chat" class="section active">
+            <h2>Loan Chatbot</h2>
+            <input type="text" id="question" placeholder="Ask about EMI, tenure, interest...">
+            <button id="sendChat">Send</button>
+            <pre id="chatResponse"></pre>
+        </section>
+
+        <section id="risk" class="section">
+            <h2>Single Risk Calculator</h2>
+            <input type="number" id="missed" placeholder="Missed Repayments">
+            <input type="number" id="loan" placeholder="Loan Amount">
+            <input type="number" id="collateral" placeholder="Collateral Value">
+            <input type="number" id="interest" placeholder="Interest Rate">
+            <button id="calcRisk">Calculate</button>
+            <pre id="riskResponse"></pre>
+        </section>
+
+        <section id="batch" class="section">
+            <h2>Batch Risk Tagging</h2>
+            <button id="uploadDataset">Tag</button>
+            <pre id="batchResponse"></pre>
+        </section>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+
+</html>
