@@ -28,7 +28,7 @@ This is a FastAPI-based backend application with a simple frontend interface. It
 2. Start the server:
    ```uvicorn main:app --reload```
 
-3. Access the frontend at: `http://localhost:8000`
+3. Access the frontend at: `http://localhost:8000` (Reload if didn't run)
 
 ## API Endpoints
 
