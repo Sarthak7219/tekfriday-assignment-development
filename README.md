@@ -1,4 +1,4 @@
-# TekFriday Assignment – Loan Risk Classifier
+# TekFriday Assignment – (Development)
 
 Here is my submission for the TekFriday Assignment (Development).
 - Submitted by: Sarthak Rangari
