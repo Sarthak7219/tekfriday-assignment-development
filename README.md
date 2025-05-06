@@ -1,5 +1,9 @@
 # TekFriday Assignment – Loan Risk Classifier
 
+Here is my submission for the TekFriday Assignment (Development).
+Submitted by - Sarthak Rangari
+Email - sarthakrangari788@gmail.com
+
 This is a FastAPI-based backend application with a simple frontend interface. It performs the following tasks:
 
 1. Answers basic loan-related questions through a chatbot.
