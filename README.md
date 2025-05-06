@@ -22,8 +22,10 @@ This is a FastAPI-based backend application with a simple frontend interface. It
 
 ## How to Run
 
+- Make sure to have Python installed.
+
 1. Install dependencies:
-   ``` pip install fastapi uvicorn pandas openpyxl```
+   ``` pip install -r requirements.txt```
    
 2. Start the server:
    ```uvicorn main:app --reload```
